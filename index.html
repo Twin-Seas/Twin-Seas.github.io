@@ -33,9 +33,8 @@
             <div class="w3-dropdown-hover w3-hide-small">
                 <button class="w3-padding-large w3-button" title="More">GALLERY<i class="fa fa-caret-down"></i></button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="#alice" class="w3-bar-item w3-button">Photos</a>
-                    <a href="#celina" class="w3-bar-item w3-button">Documentary</a>
-                    <a href="#emilie" class="w3-bar-item w3-button">Demo video</a>
+                    <a href="#photos" class="w3-bar-item w3-button">Photos</a>
+                    <a href="#documentary" class="w3-bar-item w3-button">Documentary</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover w3-hide-small">
@@ -80,21 +79,69 @@
             as long as you have the Hololens, the stick and the QR code.
         </p>
         <h2 class="w3-wide">Challenges and Goals</h2>
-        <p class="w3-justify">
-            
+        <p class="w3-justify w3-center" >
+            Here where some challanges we encountered and some goals we had!
+            <ul class="w3-ul">
+                <li>
+                    <b>Innovative gameplay interactions</b><br> A goal of the project was to create some innovative gameplay interactions using the capabilities 
+                        of AR and computer vision in combination with physical interaction. This proved to be both challanging and a learning experience. 
+                </li>
+
+                <li>
+                    <b>Hardware Limitations</b><br> A challenge with the hololens was its hardware capabilities. 
+                    The power of the device is comparable to a phone, this meant that we had to be innovative and resourceful with our utilisation of the device.
+                </li>
+                <li>
+                    <b>User testing</b><br> A goal for the project was to gather feedback from user testing. The course that the project was developed through gave us 
+                    many oppertunities to do so with many different demographics. This was a great oppertunity to gather feedback and gain experience about user testing. 
+                </li>
+                <li>
+                    <b>Game balance</b><br> Something that we also strived for was a balanced 
+                        game experience that could both be challenging and fun. In the end we achieved a good balance between game time and difficulty.
+                </li>
+                <li>
+                    <b>Spatial awareness</b><br>
+                        During testing we noticed that player awareness of what was going on in the game was an issue. We tackled this challange by investigating different visual cues for 
+                        the player. We implemented and investigated both markers on the HUD and visual effects to solve this.  
+            </ul>
         </p>
         <h2 class="w3-wide">Related work</h2>
+        Here are some related works that inspired us to create Twin Seas!
         <ul class="w3-ul">
-            <li><a href="https://www.youtube.com/watch?v=nGfVBdqw2VE">The Ancients AR</a></li>
-            <li><a href="https://vimeo.com/162064613">Brarwl</a></li>
+            <li><a href="https://www.youtube.com/watch?v=nGfVBdqw2VE">The Ancients AR</a><br>
+                An AR game about boat fighting. This game gave us the inspiration on how to set up the game area.
+            </li>
+            <li><a href="https://vimeo.com/162064613">Brarwl</a> <br>
+                A previous project in the course AGI with a similar setup to ours, we thank them for the inspiration.
+            </li>
+            
             <li><a href="https://dl.acm.org/doi/10.1145/3214745.3214820">The technical art of sea of thieves</a></li>
+            A paper about how the graphics in the game sea of theives was created. The style of sea of thevies was a
+            great inspiration for us.
         </ul>
-        
+
     </div>
 
     <!-- Gallery -->
     <div class="w3-black" id="gallery">
         <h2 class="w3-wide w3-center">GALLERY</h2>
+        <h3 class="w3-wide w3-center" id="photos">Photos</h3>
+
+        <h3 class="w3-wide w3-center" id="documentary">Documentary</h3>
+        <div class="w3-center">
+            <iframe width="1120" height="630" 
+                src="https://www.youtube-nocookie.com/embed/67g8bmy7Ccg?si=fRKxWORoB4pp3cl-" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+            
+        </div>
+        <div class="w3-center">
+            <h3 class="w3-wide w3-center" id="documentary">Documentary video made in collaboration with KTH</h3>
+            <iframe width="1120" height="630" 
+                    src="https://www.youtube-nocookie.com/embed/YX1yxP3TV0A?si=sUjEDF10R4EhwHS2"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
     </div>
 
     <!-- The Contact Section -->
@@ -134,15 +181,15 @@
             <div class="w3-col s5">
                 <h3 class="w3-center">Celina</h3>
                 <p>
-                    I’m an enthusiastic game developer with substantial experience in the Unity game engine 
-                    and Autodesk Maya 3D modeling and animation software. My primary skills would be 
-                    3D modeling, rigging, animations, and game programming. My leading responsibilities 
-                    for this project have been modeling, animating, and developing the mechanics for the 
-                    Kraken enemy. I’m a collaborative team member ready to address any workload that 
-                    requires attention such as debugging, writing code, or asset creation for the game. 
-                    Furthermore, I’m always prepared to offer guidance to my team members in both technical 
+                    I’m an enthusiastic game developer with substantial experience in the Unity game engine
+                    and Autodesk Maya 3D modeling and animation software. My primary skills would be
+                    3D modeling, rigging, animations, and game programming. My leading responsibilities
+                    for this project have been modeling, animating, and developing the mechanics for the
+                    Kraken enemy. I’m a collaborative team member ready to address any workload that
+                    requires attention such as debugging, writing code, or asset creation for the game.
+                    Furthermore, I’m always prepared to offer guidance to my team members in both technical
                     and artistic realms.
-                    
+
                 </p>
             </div>
         </div>
@@ -163,7 +210,7 @@
                     wood in the workshop. I worked on the AR tracking behaviour for the game, programmed the enemies
                     but I was just as happy 3D modelling, rigging, and animating a whale. I believe making a game feel
                     right means taking time with small adjustments, so I also spent time balancing the game to improve
-                    the player experience. Everyone likes powerups so I added the behaviour of them to Twinseas to
+                    the player experience. Everyone likes powerups so I added the behaviour of them to Twin Seas to
                     give it a bit more spice.
                 </p>
             </div>
@@ -181,7 +228,14 @@
             <div class="w3-col s5">
                 <h3 class="w3-center">Gustav</h3>
                 <p>
-			I'm a versatile team player, willing to take on any task to make our project as good as it can be. My primary responsibilities revolved around AR tracking, ensuring that our virtual world seamlessly blended with the real one. I also took charge of refining the shooting mechanics and working on the UI of the game. I set up the play area, enabling smooth restarts for uninterrupted play. and created a system to display enemy indicators when they venture off-screen, keeping players engaged and informed. In game development, small adjustments can make a world of difference, so I and the team have dedicated time to fine-tuning and balancing our game together. This project has had me wearing multiple hats, much like a captain steering a ship through treacherous waves.
+                    I'm a versatile team player, willing to take on any task to make our project as good as it can be.
+                    My primary responsibilities revolved around AR tracking, ensuring that our virtual world seamlessly
+                    blended with the real one. I also took charge of refining the shooting mechanics and working on the
+                    UI of the game. I set up the play area, enabling smooth restarts for uninterrupted play. and created
+                    a system to display enemy indicators when they venture off-screen, keeping players engaged and
+                    informed. In game development, small adjustments can make a world of difference, so I and the team
+                    have dedicated time to fine-tuning and balancing our game together. This project has had me wearing
+                    multiple hats, much like a captain steering a ship through treacherous waves.
                 </p>
             </div>
         </div>
